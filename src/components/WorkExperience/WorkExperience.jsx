@@ -10,6 +10,13 @@ function WorkExperience() {
       description:
         "Studied basics of programming, JavaScript and its frameworks and libraries. Did projects with using all basic abilities of JavaScript.",
     },
+    {
+      title: "Commercial Project",
+      place: "Self-employment",
+      time: "11.24 - 12.24",
+      description:
+        "Made a website 'Bench of love' that works now and based in Mogilev. In our team I did all API integration at the visual part of app, using React and React-Router.",
+    },
   ];
 
   return (

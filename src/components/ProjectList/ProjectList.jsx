@@ -11,25 +11,25 @@ function ProjectList() {
         "Landing page of DOSAAF company with full adaptive to PC, desktop and mobile.",
     },
     {
-      title: "DOSAAF Landing",
+      title: "Website shop",
       pictureLink: "img/landing.png",
-      stack: ["CSS", "JavaScript", "Figma"],
+      stack: ["React", "NodeJS", "Express", "ExpressValidator"],
       description:
-        "Landing page of DOSAAF company with full adaptive to PC, desktop and mobile.",
+        "Сlothing store website with own backend that has filters & multiselects for searching.",
     },
     {
-      title: "DOSAAF Landing",
+      title: "API&SPA",
       pictureLink: "img/landing.png",
-      stack: ["CSS", "JavaScript", "Figma"],
+      stack: ["TailwindCSS", "React", "React-Router", "Express"],
       description:
-        "Landing page of DOSAAF company with full adaptive to PC, desktop and mobile.",
+        "Website with own backend that repeat JSONPlaceholder for watching user`s photos.",
     },
     {
-      title: "DOSAAF Landing",
+      title: "Notion",
       pictureLink: "img/landing.png",
-      stack: ["CSS", "JavaScript", "Figma"],
+      stack: ["TailwindCSS", "React", "React-Router", "Redux"],
       description:
-        "Landing page of DOSAAF company with full adaptive to PC, desktop and mobile.",
+        "Website for managing notes independently for each user.",
     },
   ];
 

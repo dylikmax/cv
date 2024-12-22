@@ -33,7 +33,6 @@ ul::before {
   background-color: var(--main-color);
 }
 
-
 .name {
   padding-bottom: 20px;
 }
@@ -55,4 +54,73 @@ header::after {
 .container {
   display: flex;
   justify-content: space-between;
+}
+
+@media (max-width: 1440px) {
+  h1 {
+    font-size: 52px;
+  }
+
+  ul {
+    width: calc(25% + 7px);
+  }
+
+  li {
+    font-size: 16px;
+  }
+
+  .icon {
+    width: 20px;
+    height: 20px;
+    color: var(--main-color);
+  }
+
+  .title {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 42px;
+  }
+
+  .li {
+    font-size: 14px;
+  }
+
+  ul {
+    width: calc(30% + 7px);
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    justify-content: initial;
+    flex-direction: column;
+  }
+
+  ul {
+    left: 0;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: auto;
+  }
+
+  ul::before {
+    left: 0;
+    top: 0;
+    height: 0;
+    width: 0;
+  }
+
+  .name {
+    padding-bottom: 0;
+  }
+}
+
+@media (max-width: 540px) {
+  h1 {
+    font-size: 36px;
+  }
 }

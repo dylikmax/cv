@@ -20,3 +20,29 @@ h2 {
   background-color: var(--background-page-color);
   border-radius: 10px;
 }
+
+@media (max-width: 1440px) {
+  .text {
+    font-size: 16px;
+  }
+
+  .item {
+    font-size: 16px;
+    padding: 6px;
+    border-radius: 6px;
+  }
+
+  .list {
+    gap: 6px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .text {
+    font-size: 14px;
+  }
+
+  .item {
+    font-size: 14px;
+  }
+}

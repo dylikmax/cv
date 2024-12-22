@@ -6,7 +6,7 @@
   flex-direction: column;
   gap: 10px;
   width: 325px;
-  height: 440px;
+  height: 460px;
 }
 
 .list {
@@ -42,4 +42,87 @@
   height: 200px;
   width: auto;
   object-fit: cover;
+}
+
+@media (max-width: 1440px) {
+  .text {
+    font-size: 16px;
+  }
+
+  .item {
+    font-size: 16px;
+    padding: 4px;
+    border-radius: 6px;
+  }
+  
+  .stack {
+    gap: 6px;
+  }
+
+  .project {
+    width: 24vw;
+    height: 380px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .project {
+    width: 23vw;
+    height: 320px;
+    padding: 15px;
+  }
+
+  .list {
+    gap: 15px;
+  }
+
+  .pic {
+    height: 150px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .text {
+    font-size: 14px;
+  }
+
+  .item {
+    font-size: 14px;
+  }
+
+  .project {
+    width: 21vw;
+    height: 300px;
+  }
+
+  .list {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .project {
+    padding: 15px;
+    gap: 10px;
+    width: 33vw;
+    height: auto;
+  }
+}
+
+@media (max-width: 540px) {
+  .list {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+
+  .project {
+    width: auto;
+    height: auto;
+  }
+}
+
+@media (max-width: 425px) {
+  .project {
+    width: 68vw;
+  }
 }
