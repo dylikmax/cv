@@ -1,0 +1,33 @@
+.place {
+  background: var(--background-page-color);
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+.topInfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text {
+  font-size: 24px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

@@ -1,0 +1,45 @@
+.project {
+  background: var(--background-page-color);
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 325px;
+  height: 440px;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.text {
+  font-size: 24px;
+}
+
+.item {
+  font-size: 24px;
+  padding: 8px;
+  background-color: var(--background-color);
+  border-radius: 10px;
+}
+
+.stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pic {
+  height: 200px;
+  width: auto;
+  object-fit: cover;
+}

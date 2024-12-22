@@ -1,0 +1,41 @@
+.app {
+  background-color: var(--background-page-color);
+  color: var(--main-color);
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background-color: var(--background-color);
+  margin: 80px 0;
+  padding: 20px;
+  width: 1152px;
+}
+
+main {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  height: 1400px;
+}
+
+.leftPart {
+  width: 750px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.rightPart {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.line {
+  width: 4px;
+  height: 100%;
+  background-color: var(--main-color);
+}

@@ -1,0 +1,22 @@
+h2 {
+  font-size: 52px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 10px;
+}
+
+.item {
+  font-size: 24px;
+  padding: 8px;
+  background-color: var(--background-page-color);
+  border-radius: 10px;
+}
